@@ -1,0 +1,38 @@
+@use 'abstracts/variables';
+@use 'abstracts/mixin';
+
+@use 'base/reset';
+@use 'base/fonts';
+
+@use 'components/header';
+
+@use 'pages/home';
+
+
+.upper__text {
+    color: white;
+    padding-left: 5px;
+}
+
+
+
+
+.hero__upper {
+    
+}
+
+.upper__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+
+.upper__item {
+    display: flex;
+    align-items: center;
+}
+body{
+    background-color: red;
+}
